@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
       
 #(this will cause a random, unused port to be assigned if none is specified)
 server:
@@ -35,5 +35,5 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
+  profiles: object
 words: boat,book,vote,seat,backpack,partition,groundhog  
