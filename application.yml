@@ -1,3 +1,13 @@
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka/
+#(this will cause a random, unused port to be assigned if none is specified)
+server.port=${PORT:${SERVER_PORT:0}}
+
+---
+#just provide a fallback
+spring:
+  profiles: default
+words: default
+
 ---
 spring:
   profiles: subject
