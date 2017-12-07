@@ -34,7 +34,7 @@ words: a,the
 ---
 spring:
   profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely,great,cool,miraculous,green
+words: reasonable,leaky,suspicious,ordinary,unlikely,strange,cool,miraculous,green
 
 ---
 spring:
