@@ -34,7 +34,7 @@ words: a,the
 ---
 spring:
   profiles: adjective
-words: staring,great,green,suspicious
+words: staring,great,green,suspicious,scary
 ---
 spring:
   profiles: noun
